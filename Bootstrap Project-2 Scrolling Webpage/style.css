@@ -31,9 +31,14 @@ body{
 }
 
 .btn{
-	margin-top: 20px;
-	margin-left: 42%;
+	position: relative;
+	left: 45%;
+	/*margin-top: 20px;
+	margin-left: 42%;*/
+
 }
+
+
 
 .about-container{
 	/*display: flex;
@@ -46,15 +51,25 @@ body{
 }
 
 section{
-	scroll-snap-align: start;
-	/*display: flex;*/
-	flex: none;
+	/*scroll-snap-align: start;
+	display: flex;
+	flex: none;*/
+
+	/*text-align: center;
+	vertical-align: center;*/
+}
+
+.center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
 }
 
 section h2{
 	font-size: 29.3;
-	margin-left: 259px;
-	padding-top: 200px;
+	/*margin-left: 259px;
+	padding-top: 200px;*/
 }
 
 /*h2{
@@ -63,22 +78,26 @@ section h2{
 */
 section p{
 	font-size: 20px;
-	font-weight: 300;
-	margin-left: 259px;
-
+	/*font-weight: 300;
+	margin-left: 259px;*/
 }
 
+/*.para{
+	text-align: center;
+}*/
+
 section  ul li{
-	margin-left: 259px;
+	/*margin-left: 259px;*/
 }
 
 .about-services{
-	/*display: flex;*/
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: #F8F9FA;
 	width: 100vw;
 	height: 100vh;
+	
 
 }
 
@@ -90,6 +109,7 @@ section  ul li{
 	
 	width: 100vw;
 	height: 75vh;
+	/*vertical-align: center;*/
 
 }
 
@@ -115,12 +135,16 @@ footer{
 
 
 @media only screen and (max-width:800px){
-	section h2{
+	/*section h2{
 		text-align: center;
 	font-size: 29.3;
 	margin-left: 10px;
 	padding-top: 200px;
-}
+}*/
+
+	.btn{
+	position: relative;
+	left: 25%;
 	
 }
 
