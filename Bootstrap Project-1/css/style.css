@@ -75,7 +75,11 @@
 	margin-bottom: 48px;
 }
 
-
+section{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
 .container2{
 	display: flex;
@@ -174,6 +178,7 @@ strike{
 		display: flex;
 		text-align: center;
 		flex: 2;
+
 	}
 	.card{
 		flex-basis: 100%;

@@ -1,3 +1,7 @@
+body{
+	width: 100%;
+}
+
 .px-5{
 	padding: 0 3rem 0 3rem;
 }
@@ -9,17 +13,48 @@
 .sec{
 
 	padding: 48px 0 48px 0 ;
+	background:#F8F9FA ;
 }
 
 .container1{
 	margin: 48px 61.667px 48px 61.667px ;
 	padding: 0 48px 0 48px;
 }
+.features{
+	display: inline-flex;
+	align-items: center;
+	background:#0D6EFD;
+	justify-content: center;
+	height: 4rem;
+	width: 4rem;
+	font-size: 2rem;
+	color: white;
+	border-radius: 0.3rem;
+	margin-bottom: 16px;
+}
+.col h2{
+	font-size: 22.6px;
+}
 
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 .text{
 	text-align:center;
 	margin-bottom: 48px;
 }
+/*section{
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 48px 0 0 48px !important;
+	flex-wrap: wrap;
+	column-gap: 45.35px;
+	column-width: 20px;
+	flex-grow: 1;
+}*/
 
 .flex{
 	display: flex;
@@ -47,4 +82,98 @@
 .small{
 	font-size: 14px;
 	padding: 48px 0 0 48px !important;
+}
+
+.fa-check{
+	color: #2CA4F2;
+}
+
+.fa-times{
+	color: grey;
+}
+
+.fa-star{
+	color: 	#FFD700;
+	
+}
+
+.fa-envelope-square{
+	color: #2CA4F2;
+	font-size: 60px;
+}
+
+.get-us{
+	padding: 0 24px 0 24px;
+
+}
+#contact{
+	/*display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;*/
+	margin: auto;
+	background: white !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+	section{
+	display: flex;
+	/*flex: 1;*/
+	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 48px 0 0 48px !important;
+	flex-wrap: wrap;
+	column-gap: 45.35px;
+	column-width: 20px;
+	flex-grow: 1;
+}
+
+.card{
+	width: 400.62px;
+}
+
+}
+
+@media only screen and (max-width:810px){
+	
+
+.card{
+	width: 200px;
+
+	}
+}
+
+
+
+@media only screen and (max-width:400px){
+	section{
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 48px 0 0 48px !important;
+	flex-wrap: wrap;
+	column-gap: 45.35px;
+	column-width: 20px;
+	flex-grow: 1;
+}
+	.bg-dark{
+		width: 100%;
+	}
+
+	.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+	.row{
+		text-align: center;
+		/*flex-basis: 100%;*/
+	}
+
+	body{
+	width: 100%;
+}
+
 }
