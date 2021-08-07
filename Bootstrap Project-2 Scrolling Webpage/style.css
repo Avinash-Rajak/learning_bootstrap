@@ -1,0 +1,128 @@
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/*.navbar-collapse{
+	padding-left: 750px;
+}*/
+
+.navbar-brand {
+	margin-left: 80px;
+}
+
+.bg-primary{
+	height: 400px;
+	/*width: 1263px;*/
+
+}
+
+.fw-bolder {
+	text-align: center;
+}
+
+.lead{
+	text-align: center;
+}
+
+.container-1{
+	margin-top: 99px;
+}
+
+.btn{
+	margin-top: 20px;
+	margin-left: 42%;
+}
+
+.about-container{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	
+	width: 100vw;
+	height: 100vh;
+
+}
+
+section{
+	scroll-snap-align: start;
+	/*display: flex;*/
+	flex: none;
+}
+
+section h2{
+	font-size: 29.3;
+	margin-left: 259px;
+	padding-top: 200px;
+}
+
+/*h2{
+	margin-top: 136px;
+}
+*/
+section p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 259px;
+
+}
+
+section  ul li{
+	margin-left: 259px;
+}
+
+.about-services{
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	background: #F8F9FA;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+
+.about-contact{
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	
+	width: 100vw;
+	height: 75vh;
+
+}
+
+.contact{
+	padding-top: 120px;
+}
+
+footer{
+	/*margin-right: 10px;*/
+	position: relative;
+	margin-top: 40px;
+	top: 40px;
+}
+
+
+/*.main{
+	flex: none;
+	display: flex;
+	flex-direction: column;
+	scroll-snap-type:x mandatory;
+	overflow-x: scroll;
+}*/
+
+
+@media only screen and (max-width:800px){
+	section h2{
+		text-align: center;
+	font-size: 29.3;
+	margin-left: 10px;
+	padding-top: 200px;
+}
+	
+}
+
+
+
