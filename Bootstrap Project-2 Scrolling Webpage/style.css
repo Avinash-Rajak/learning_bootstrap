@@ -30,11 +30,18 @@ body{
 	margin-top: 99px;
 }
 
-.btn{
+/*.btn{
 	position: relative;
 	left: 45%;
-	/*margin-top: 20px;
-	margin-left: 42%;*/
+	margin-top: 20px;
+	margin-left: 42%;
+
+}*/
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
 
@@ -151,7 +158,30 @@ footer{
 	.btn{
 	position: relative;
 	left: 25%;
-	
+	}
+
+	/*.about-services{
+		text-align: center;
+	}
+
+	.about-contact{
+		text-align: center;
+	}*/
+
+	.bell{
+	margin-left: 20%;
+	}
+
+	.para{
+		
+	margin-left: 20%;
+
+	}
+
+	.btn{
+		
+	}
+
 }
 
 
