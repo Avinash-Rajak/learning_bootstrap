@@ -1,0 +1,53 @@
+.container1{
+    margin: 48px 61.667px;
+    padding: 0 48px;
+}
+
+.text1{
+    margin-bottom: 4px;
+    font-size: 0.875rem;
+}
+
+.text2{
+    margin-bottom: 2px;
+    font-weight: bolder;
+    font-size: 2.7rem;
+}
+
+.text3{
+    margin-bottom: 48px;
+    font-size: 1.25rem;
+}
+
+.text4{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    margin-bottom: 48px;
+
+}
+
+
+
+
+
