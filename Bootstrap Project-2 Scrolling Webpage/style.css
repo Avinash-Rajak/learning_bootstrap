@@ -105,7 +105,16 @@ section  ul li{
 	width: 100vw;
 	height: 100vh;
 	
+}
 
+.bg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background: #F8F9FA;*/
+	width: 100vw;
+	height: 100vh;
+	
 }
 
 
